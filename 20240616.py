@@ -51,3 +51,77 @@ def pickup_even(c):
 def convert_int(d):
     return int(d.replace(',',''))
 convert_int("1,234,567")
+
+# 236
+# 아래 코드의 실행 결과를 예측하라.
+#
+# def 함수(num) :
+#     return num + 4
+#
+# a = 함수(10)
+# b = 함수(a)
+# c = 함수(b)
+# print(c)
+
+#14
+#18
+#22
+
+# 237
+# 아래 코드의 실행 결과를 예측하라.
+#
+# def sdf(num) :
+#      return num + 4
+#
+# c = sdf(sdf(sdf(10)))
+# print(c)
+
+#22
+
+# 238
+# 아래 코드의 실행 결과를 예측하라.
+#
+# def 함수1(num) :
+#     return num + 4
+#
+# def 함수2(num) :
+#     return num * 10
+#
+# a = 함수1(10)
+# c = 함수2(a)
+# print(c)
+
+#140
+
+# 239
+# 아래 코드의 실행 결과를 예측하라.
+#
+# def 함수1(num) :
+#     return num + 4
+#
+# def 함수2(num) :
+#     num = num + 2
+#     return 함수1(num)
+#
+# c = 함수2(10)
+# print(c)
+
+#16
+
+# 240
+# 아래 코드의 실행 결과를 예측하라.
+#
+# def 함수0(num) :
+#     return num * 2
+#
+# def 함수1(num) :
+#     return 함수0(num + 2)
+#
+# def 함수2(num) :
+#     num = num + 10
+#     return 함수1(num)
+#
+# c = 함수2(2)
+# print(c)
+
+#28
