@@ -39,19 +39,34 @@ print(now.strftime("%Y-%m-%d %H:%M:%S"))
 date = datetime.datetime.strptime("2020-05-04","%Y-%m-%d")
 print(date,type(date))
 
+# 246 sleep 함수
+# time 모듈, datetime 모듈을 사용해서 1초에 한 번 현재 시간을 출력하는 코드를 작성하세요.
+
 # while True:
 #     date = datetime.datetime.now()
 #     print(date)
 #     time.sleep(1)
+
+# 247 모듈 임포트
+# 모듈을 임포트하는 4가지 방식에 대해 설명해보세요.
 
 #import math //전체 모듈
 #from math import sqrt //일부분
 #import numpy as np //별칭
 #from math import * //모듈의 모든 요소
 
+# 248 os 모듈
+# os 모듈의 getcwd 함수를 호출하여 현재 디렉터리의 경로를 화면에 출력해보세요.
+
 # import os
 # print(os.getcwd())
+
+# 249 rename 함수
+# 바탕화면에 텍스트 파일을 하나 생성한 후 os 모듈의 rename 함수를 호출하여 해당 파일의 이름을 변경해보세요.
 # os.rename("C:/Users/Administrator/Desktop/1.txt", "C:/Users/Administrator/Desktop/2.txt")
+
+# 250 numpy
+# numpy 모듈의 arange 함수를 사용해서 0.0 부터 5.0까지 0.1씩 증가하는 값을 화면에 출력해보세요.
 
 import numpy as np
 x = np.arange(0,5,0.1)
@@ -59,4 +74,5 @@ print(x)
 
 for i in np.arange(0,5,0.1):
     print(i)
+
 
